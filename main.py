@@ -19,7 +19,7 @@ def count_characters(words):
     for character in words:
         lowered_string = character.lower()
         if lowered_string not in characters:
-            characters[lowered_string] = 0
+            characters[lowered_string] = 1
         else: 
             characters[lowered_string] += 1
     print(characters)
